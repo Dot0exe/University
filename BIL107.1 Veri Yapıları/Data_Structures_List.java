@@ -14,10 +14,9 @@ public class Data_Structures_List {
             System.out.println(num);
         }
 
-        int size = nums.size(); // Listenin boyutunu alma
-        System.out.println(size);
-
+        System.out.println(nums.size()); // Listenin boyutunu alma
         nums.add(3, 3); // Belirli bir indekse eleman ekleme
-        Integer eleman = nums.get(3); // Belirli bir indeksteki elemanı alma
+        nums.get(3); // Belirli bir indeksteki elemanı alma
+        nums.remove(2); //belirli bir indeksi silme
     }
 }
