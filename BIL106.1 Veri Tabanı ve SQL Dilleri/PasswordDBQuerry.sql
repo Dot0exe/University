@@ -12,8 +12,8 @@ CREATE TABLE PasswordHistory (
     ChangeDate DATETIME DEFAULT GETDATE(),
 );
 
-CREATE TABLE PasswordHashs (
-    HashID INT PRIMARY KEY IDENTITY(1,1),
+CREATE TABLE PasswordSalts (
+    SaltID INT PRIMARY KEY IDENTITY(1,1),
 	UserID INT FOREIGN KEY (UserID) REFERENCES Users,
-    PasswordHash NVARCHAR(100) NOT NULL,  
+    PasswordSalts NVARCHAR(100) NOT NULL,  
 );
