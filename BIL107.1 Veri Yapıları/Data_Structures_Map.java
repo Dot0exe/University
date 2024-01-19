@@ -12,11 +12,13 @@ public class Data_Structures_Map {
         
         System.out.println(names); // Hepsini Yazdırma
 
-        System.out.println(names.size());
-        System.out.println(names.get(1));
-        System.out.println(names.containsKey(5));
-        System.out.println( names.keySet());
-        System.out.println(names.entrySet());
+        names.remove(2); // Eleman Silme
+
+        System.out.println(names.size()); // Boyutu Yazdırma
+        System.out.println(names.get(1)); // Belirli Bir Anahtarı Yazdırma
+        System.out.println(names.containsKey(5)); // Anahtar Var mı Kontrol Etme
+        System.out.println( names.keySet()); // Bütün Anahtarları Yazdırma
+        System.out.println(names.entrySet()); // Bütün Girişleri Yazdırma
 
     }
 }

@@ -7,7 +7,7 @@ int main() {
         toplam += i;
     }
 
-    printf("1 ile 1000 arasındaki 5'in katlarının toplamı: %d", sum);
+    printf("1 ile 1000 arasındaki 5'in katlarının toplamı: %d", toplam);
 
     return 0;
 }

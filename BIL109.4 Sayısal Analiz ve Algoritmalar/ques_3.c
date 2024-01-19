@@ -7,7 +7,7 @@ int main() {
         k += i * i * i;
     }
 
-    printf("1'den 10'a kadar olan sayıların küplerinin toplamı: %d\n", k);
+    printf("1'den 10'a kadar olan sayilarin kuplerinin toplami: %d\n", k);
 
     return 0;
 }
