@@ -1,50 +1,41 @@
 <html>
-	<head>
-		<title> </title>
-	</head>
-	<body>
-		<b>4. hafta iÅŸlenen konular</b><br>
-		<hr width = "170" size = "2" color = "red" align = "left"<br>
-		-link ekleme:<br>
-			Ã–rnek 1 : <a href = "https://www.apple.com.tr" target "_blank">
-								Apple Web SayfasÄ±</a><br>
-								
-			Ã–rnek 2 : Mail gÃ¶ndermek iÃ§in <a href = "mailto:ali.sayit@bligiedu.net">
-													tÄ±klayÄ±nÄ±z</a>
-			Ã–rnek 3 : Ã‡apa Ã–rnekleri<br>
-		<br>
-		<b>5. Hafta KonularÄ±</b><br>
-		<hr width = "170" size = "2" color = "red" align = "left" br>
-		-Madde Ä°ÅŸaretlendirme ve NumaralandÄ±rma<br>
-		Ã–rnek 1: ol Ã¶rneÄŸi ile sÄ±ralama<br><br>
-		<i>En sevdiÄŸim filmler</i>
-		<ol>
-		<li>test1</li>
-		<li>test2</li>
-		<li>test3</li>
-		<li>test4</li>
-		</ol>
-		
-		<br>
-		<i>Ã–rnek 2: ul ile sÄ±ralama</i><br>
-		<ul type = "disc">
-		<li>test1</li>
-		<li>test2</li>
-		<li>test3</li>
-		<li>test4</li>
-		</ul>
-        <br>
-		-Tablo Ekleme <br />
-		En SevdiÄŸim Yemeklerin Tablosu
-					  <table border="1" bordercolor = "darkblue" bgcolor ="cyan" width="100" height="80" align="center">
-						  <tr valign ="top">
-							  <td>test1</td>
-							  <td>test2</td>
-						  </tr>
-						  <tr>
-							  <td>test3</td>
-							  <td>test4</td>
-						  </tr>
-					  </table>
-	</body>
+<head>
+	<title>İletişim Formu | Garanti BBVA</title>
+</head>
+<body>
+	<font size="4"><b>Yaşadığınız olumsuzlukları güzel deneyimlere dönüştürmek için buradayız.</b></font><br />	<br />
+	Sorularınızın cevaplarını hızlıca
+	<a href="https://www.garantibbva.com.tr/musteri-deneyimi/pratik-cozumler">Pratik Çözümler</a>
+	’den bulabilir ya da İletişim Formumuzu doldurabilirsiniz. <br />
+	Mesajınız aşağıdaki konulardan biri ile ilgili ise önceden çözüm üretilmiş olabilir. <br>
+	Bildirimde bulunmadan önce çözüm önerilerimizi inceleyebilirsiniz.<br /><br />
+
+	Kayıp / çalıntı bildirimleri ve bilgi güncelleme taleplerinizi 444 0 333 Garanti BBVA Müşteri İletişim Merkezi’ne iletebilirsiniz.<br /><br />
+	<form >
+	Şikayet <input type="radio" name="sorun" value="sikayet" checked />
+	Öneri <input type="radio" name="sorun" value="sikayet" />
+	<br /><br />
+	Konu<br />
+	<select name="secenek">
+		<option value="1">Lütfen bir konu seçiniz.</option>
+		<option value="2">Atm Sorunları.</option>
+		<option value="3">Kredi Kartı Sorunları.</option>
+		<option value="4">Hesabıma Erişemiyorum.</option>
+	</select>
+
+	<br /> <br />
+	Şikayet Detayı<br />
+	<textarea cols="40" rows="5"placeholder="Şikayetiniz..." ></textarea> <br />
+	Adınız:<br />
+	<input type="text" name="ad" size="40" autofocus /> <br />
+	Soyadınız: <br />
+	<input type="text" name="soyad" /> <br />
+	Tc Kimlik No veya Yabancı Kimlik No: <br />
+	<input type="text" name="kimlik" required maxlength="11" /> <br />
+	Şifre:<br />
+	<input type="password" name="sifre" required maxlength="16" /> <br />
+	<input type="submit" value="Gönder" />
+	<input type="reset" value="Temizle" />
+	</form>
+</body>
 </html>
