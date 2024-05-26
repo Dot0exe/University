@@ -1,4 +1,5 @@
 public class degiskenler {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         int deger1 = 99;
         double deger2 = 9.75;
