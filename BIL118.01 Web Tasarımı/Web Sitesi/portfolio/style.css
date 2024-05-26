@@ -1,5 +1,7 @@
 body {
     font-family: Arial, sans-serif;
+	background-color: #181a1b;
+    color: #fff;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -84,4 +86,14 @@ a:hover {
 
 .project {
     margin-bottom: 20px;
+}
+
+/* Mobil Görünüm */
+@media screen and (max-width: 768px) {
+    header li {
+        float: none;
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
 }
